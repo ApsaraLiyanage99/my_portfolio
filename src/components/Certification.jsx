@@ -15,6 +15,9 @@ import uiux1 from "../assets/certificates/uiux1.png";
 import php1 from "../assets/certificates/php.jpg";
 import js1 from "../assets/certificates/js1.png";
 import c1 from "../assets/certificates/c1.jpg";
+import jira1 from "../assets/certificates/jira1.png";
+import oop1 from "../assets/certificates/oop1.jpg";
+import aws1 from "../assets/certificates/aws1.jpg";
 import other1 from "../assets/certificates/other1.png";
 
 const Certification = () => {
@@ -105,7 +108,6 @@ const Certification = () => {
       // style: "shadow-gray-500",
       category: "php",
     },
-
     {
       id: 13,
       src: js1,
@@ -118,11 +120,32 @@ const Certification = () => {
       src: c1,
       // title: "Postman",
       // style: "shadow-gray-500",
-      ccategory: "c",
+      category: "other",
     },
     {
       id: 15,
       src: other1,
+      // title: "Canva",
+      // style: "shadow-green-500",
+      category: "other",
+    },
+    {
+      id: 16,
+      src: jira1,
+      // title: "Flutter",
+      // style: "shadow-sky-500",
+      category: "project management",
+    },
+    {
+      id: 17,
+      src: oop1,
+      // title: "Postman",
+      // style: "shadow-gray-500",
+      category: "oop",
+    },
+    {
+      id: 18,
+      src: aws1,
       // title: "Canva",
       // style: "shadow-green-500",
       category: "other",
@@ -239,14 +262,14 @@ const Certification = () => {
             JavaScript
           </button>
           <button
-            onClick={() => setSelectedCategory("c1")}
+            onClick={() => setSelectedCategory("oop")}
             className={`${
-              selectedCategory === "c1"
+              selectedCategory === "oop"
                 ? "bg-gradient-to-r from-pink-300 to-purple-700"
                 : "bg-gray-500"
             } hover:bg-gray-800 px-4 py-1 text-sm w-[16%] rounded-lg`}
           >
-            C
+            OOP
           </button>
           <button
             onClick={() => setSelectedCategory("other")}

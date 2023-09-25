@@ -11,10 +11,16 @@ import tailwind from "../assets/logos/Tailwind CSS.png";
 import mysql from "../assets/logos/mysql.png";
 import mongo from "../assets/logos/mongo.png";
 import postgres from "../assets/logos/postgres.png";
-import java from "../assets/logos/java.png";
+import java from "../assets/logos/java (2).png";
 import python from "../assets/logos/Python.png";
 import postman from "../assets/logos/postman.png";
 import flutter from "../assets/logos/Flutter.png";
+import angular from "../assets/logos/Angular.png";
+import c from "../assets/logos/C.png";
+import cpp from "../assets/logos/C++.png";
+import kotlin from "../assets/logos/Kotlin.png";
+import linux from "../assets/logos/linux.png";
+import aws from "../assets/logos/aws.png";
 
 import canva from "../assets/logos/canva.png";
 import figma from "../assets/logos/Figma.png";
@@ -46,7 +52,7 @@ const Skills = () => {
       src: js,
       title: "JavaScript",
       style: "shadow-yellow-500",
-      category: "web development",
+      category: "programming languages",
     },
     {
       id: 4,
@@ -67,7 +73,7 @@ const Skills = () => {
       src: tailwind,
       title: "TailwindCss",
       style: "shadow-sky-400",
-      ccategory: "web development",
+      category: "web development",
     },
     {
       id: 7,
@@ -87,7 +93,7 @@ const Skills = () => {
       id: 9,
       src: python,
       title: "Python",
-      style: "shadow-yellow-500",
+      style: "shadow-orange-500",
       category: "programming languages",
     },
     {
@@ -124,7 +130,7 @@ const Skills = () => {
       src: postman,
       title: "Postman",
       style: "shadow-gray-500",
-      ccategory: "web development",
+      category: "other",
     },
     {
       id: 15,
@@ -175,6 +181,48 @@ const Skills = () => {
       title: "MySql Workbench",
       style: "shadow-sky-500",
       category: "database",
+    },
+    {
+      id: 22,
+      src: angular,
+      title: "AngularJs",
+      style: "shadow-red-500",
+      category: "web development",
+    },
+    {
+      id: 23,
+      src: cpp,
+      title: "C++",
+      style: "shadow-blue-500",
+      category: "programming languages",
+    },
+    {
+      id: 24,
+      src: c,
+      title: "C",
+      style: "shadow-blue-500",
+      category: "programming languages",
+    },
+    {
+      id: 25,
+      src: kotlin,
+      title: "Kotlin",
+      style: "shadow-orange-500",
+      category: "mobile development",
+    },
+    {
+      id: 26,
+      src: aws,
+      title: "AWS",
+      style: "shadow-gray-500",
+      category: "other",
+    },
+    {
+      id: 27,
+      src: linux,
+      title: "Linux",
+      style: "shadow-gray-500",
+      category: "other",
     },
   ];
 
@@ -268,7 +316,16 @@ const Skills = () => {
             Designing Tools
           </button>
 
-          {/* Add buttons for other categories here */}
+          <button
+            onClick={() => setSelectedCategory("other")}
+            className={`${
+              selectedCategory === "other"
+                ? "bg-gradient-to-r from-pink-300 to-purple-700"
+                : "bg-gray-500"
+            } hover:bg-gray-800 px-1 py-1 text-sm w-[16%] rounded-lg`}
+          >
+            Other
+          </button>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
