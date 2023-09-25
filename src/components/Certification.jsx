@@ -19,7 +19,6 @@ import jira1 from "../assets/certificates/jira1.png";
 import oop1 from "../assets/certificates/oop1.jpg";
 import aws1 from "../assets/certificates/aws1.jpg";
 import other1 from "../assets/certificates/other1.png";
-import postman from "../assets/certificates/postman.png";
 
 const Certification = () => {
   const [selectedCategory, setSelectedCategory] = useState("web"); // Default category is "all"
@@ -147,13 +146,6 @@ const Certification = () => {
     {
       id: 18,
       src: aws1,
-      // title: "Canva",
-      // style: "shadow-green-500",
-      category: "other",
-    },
-    {
-      id: 19,
-      src: postman,
       // title: "Canva",
       // style: "shadow-green-500",
       category: "other",
