@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20 ">
-          I am Sasindu Udayanga who is an current undergraduate of University of
+          I am Apsara Liyanage who is an current undergraduate of University of
           Colombo School of Computing reading for Bsc. Computer Science. I'm a
           motivated, innovative person who accept challenges and willing to
           improve and learn more. I am and prefer problem-solving, designing,
