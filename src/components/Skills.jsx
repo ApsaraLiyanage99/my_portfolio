@@ -224,6 +224,13 @@ const Skills = () => {
       style: "shadow-gray-500",
       category: "other",
     },
+    {
+      id: 28,
+      src: go,
+      title: "Golang",
+      style: "shadow-green-500",
+      category: "programming languages",
+    },
   ];
 
   // Filter technologies based on the selected category
