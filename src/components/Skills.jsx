@@ -50,9 +50,9 @@ const Skills = () => {
     },
     {
       id: 3,
-      src: js,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: go,
+      title: "Golang",
+      style: "shadow-green-500",
       category: "programming languages",
     },
     {
@@ -150,7 +150,7 @@ const Skills = () => {
     {
       id: 17,
       src: github,
-      title: "Githib",
+      title: "Github",
       style: "shadow-gray-500",
       category: "project management",
     },
@@ -192,15 +192,15 @@ const Skills = () => {
     },
     {
       id: 23,
-      src: cpp,
-      title: "C++",
-      style: "shadow-blue-500",
+      src: js,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
       category: "programming languages",
     },
     {
       id: 24,
-      src: c,
-      title: "C",
+      src: cpp,
+      title: "C++",
       style: "shadow-blue-500",
       category: "programming languages",
     },
@@ -227,9 +227,9 @@ const Skills = () => {
     },
     {
       id: 28,
-      src: go,
-      title: "Golang",
-      style: "shadow-green-500",
+      src: c,
+      title: "C",
+      style: "shadow-blue-500",
       category: "programming languages",
     },
   ];
