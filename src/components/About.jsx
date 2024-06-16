@@ -13,19 +13,19 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20 ">
-          I am Apsara Liyanage who is an current undergraduate of University of
-          Colombo School of Computing reading for Bsc. Computer Science. I'm a
-          motivated, innovative person who accept challenges and willing to
-          improve and learn more. I am and prefer problem-solving, designing,
-          and programming. I also have a strong feeling of empathy and
-          cooperation also.
+          I am Apsara Liyanage who is currently working as an Associate Software
+          Engineer. I am a Motivated and innovative full stack developer with 2+
+          years of expertise in developing scalable applications using modern
+          frameworks. Highly adaptable to new technologies and proficient in
+          quickly learning new programming languages according to project
+          requirements.
         </p>
         <br />
         <p className="text-xl">
-          I chase new technologies and eager to designing and building software
-          applications. Full stack development, Frontend development, Backend
-          development, Mobile application development, Ui/Ux designing and
-          Software quality assurance are my skilled areas.
+          I'm Dedicated to contributing my maximum as a fast learner, punctual,
+          and open to new challenges and willing to improve and learn more.I
+          prefer problem-solving, designing, and programming. I also have a
+          strong feeling of empathy and cooperation also.
         </p>
       </div>
     </div>
