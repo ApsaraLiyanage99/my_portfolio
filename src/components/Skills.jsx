@@ -21,6 +21,7 @@ import cpp from "../assets/logos/C++.png";
 import kotlin from "../assets/logos/Kotlin.png";
 import linux from "../assets/logos/linux.png";
 import aws from "../assets/logos/aws.png";
+import go from "../assets/logos/go.png";
 
 import canva from "../assets/logos/canva.png";
 import figma from "../assets/logos/Figma.png";
